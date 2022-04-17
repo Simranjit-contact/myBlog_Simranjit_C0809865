@@ -1,0 +1,90 @@
+body {
+	text-align: center;
+	margin: 0px;
+  	padding: 0px; 
+  	outline: none;
+  	border: 0px;
+	background-color: #42bfbb;
+}
+ul {
+	text-align: left;
+}
+#topNav {
+	background-color: #0b7976;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+}
+#topNav a {
+	color: white;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+}
+#topNav a:hover {
+	color: black;
+	background-color: #7abbf3;
+}
+
+.row{
+	float: left;
+	height: 20em;
+}
+
+
+.about{
+	text-align: left;
+	width: 100%;
+	background-color:#b2cade;
+}
+
+#footer{
+	background-color: #42bfbb;
+	color: black;
+	padding-bottom: 2em;
+}
+#footer img {
+	width: 75px;
+	padding: 30px;
+}
+p {
+	font-size: 1em;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: 2.25em;
+}
+h3 {
+	font-size: 2em;
+}
+a {
+	color: black;
+}
+
+@media screen and (max-width: 900px) {
+	#topNav a {
+		padding-top: .5em;
+		padding-bottom: .5em;
+		display: block;
+	}
+	#topNav {
+		padding-top: 0px;
+		padding-bottom: 0px;
+	}
+	#about, #services, #contact, #accomplishments {
+		padding: 80px;
+	}
+	.row{
+		height: fit-content;
+	}
+}
+#photo {
+	width: 100%;
+	margin-top: -30px;
+}
+
+
