@@ -33,11 +33,25 @@ ul {
 	height: 20em;
 }
 
+.padding
+{
+width:25%;
+height:60%;
+padding: 0px 10px 10px 0px;
+}
+
+.paddingabout
+{
+width:25%;
+height:60%;
+padding: 0px 80px 80px 50px;
+}
 
 .about{
 	text-align: left;
 	width: 100%;
 	background-color:#b2cade;
+	font-family: "Lucida Console", "Courier New", monospace;
 }
 
 #footer{
@@ -56,7 +70,7 @@ h1 {
 	font-size: 3em;
 }
 h2 {
-	font-size: 2.25em;
+	font-size: 2em;
 }
 h3 {
 	font-size: 2em;
@@ -75,7 +89,7 @@ a {
 		padding-top: 0px;
 		padding-bottom: 0px;
 	}
-	#about, #services, #contact, #accomplishments {
+	#about, #contact {
 		padding: 80px;
 	}
 	.row{
